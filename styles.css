@@ -111,8 +111,8 @@ section {
 }
 
 .social-icon {
-    width: 5px; /* Tamaño del icono */
-    height: 5px;
+    width: 13px; /* Tamaño del icono */
+    height: 13px;
     transition: transform 0.3s; /* Efecto al pasar el mouse */
 }
 
