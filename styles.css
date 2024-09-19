@@ -98,6 +98,29 @@ section {
     transform: scale(1.05);
 }
 
+
+.social-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px; /* Espacio entre los iconos */
+}
+
+.social-buttons a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 40px; /* Tamaño del icono */
+    height: 40px;
+    transition: transform 0.3s; /* Efecto al pasar el mouse */
+}
+
+.social-icon:hover {
+    transform: scale(1.2); /* Efecto de aumento al pasar el mouse */
+}
+
+
 .comments-section {
   background-color: #f1f1f1;
   padding: 40px;
