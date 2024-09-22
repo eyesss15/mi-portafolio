@@ -18,6 +18,11 @@ document.querySelector('.comment-form').addEventListener('submit', function(even
 
 })
 
+
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('toggleDarkMode');
+    const body = document.body;
+
 const toggleButton = document.getElementById('toggleDarkMode');
 const body = document.body;
 
@@ -38,3 +43,4 @@ toggleButton.addEventListener('click', () => {
         localStorage.removeItem('dark-mode'); // Elimina el modo oscuro
     }
 });
+    });
