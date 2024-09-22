@@ -48,7 +48,7 @@ nav ul li a:hover {
     color: #f4f4f4;
 }
 
-#hero {
+.hero {
   position: relative;
   height: 100vh;
   width: 100%;
