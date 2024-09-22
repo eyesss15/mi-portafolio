@@ -49,14 +49,30 @@ nav ul li a:hover {
 }
 
 #hero {
-    background: url('photo-1512250431446-d0b4b57b27ec.jpg') no-repeat center center/cover;
     height: 80vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow: hidden;
 }
+
+.hero video {
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      object-fit: cover;
+      opacity: 0.7; /* Puedes ajustar la opacidad del video */
+
+}
+
 
 #hero h1 {
     font-size: 50px;
