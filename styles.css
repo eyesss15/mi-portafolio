@@ -81,6 +81,7 @@ section {
 
 #about, #projects, #contact {
     background-color: white;
+    color: black;
     margin: 20px auto;
     max-width: 1000px;
     border-radius: 10px;
