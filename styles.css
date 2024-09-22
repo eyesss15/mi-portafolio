@@ -80,7 +80,7 @@ section {
 }
 
 #about, #projects, #contact {
-    background-color: #fff;
+    background-color: white;
     margin: 20px auto;
     max-width: 1000px;
     border-radius: 10px;
