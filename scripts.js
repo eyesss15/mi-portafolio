@@ -17,3 +17,24 @@ document.querySelector('.comment-form').addEventListener('submit', function(even
  document.querySelector('#comentario').value = '';
 
 })
+
+const toggleButton = document.getElementById('toggleDarkMode');
+const body = document.body;
+
+if (local.Storage.getItem('dark-mode') === 'enabled') {
+    body.classList.add('dark-mode');
+    toggleButton.innerText = 'Desactivar modo oscuro';
+}
+
+toggleButton.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+
+    // Cambia el texto del botón
+    if (body.classList.contains('dark-mode')) {
+        toggleButton.innerText = 'Desactivar modo oscuro';
+        localStorage.setItem('dark-mode', 'enabled'); // Guarda el modo oscuro
+    } else {
+        toggleButton.innerText = 'Activar modo oscuro';
+        localStorage.removeItem('dark-mode'); // Elimina el modo oscuro
+    }
+});
