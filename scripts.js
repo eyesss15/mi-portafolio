@@ -42,5 +42,5 @@ toggleButton.addEventListener('click', () => {
         toggleButton.innerText = 'Activar modo oscuro';
         localStorage.removeItem('dark-mode'); // Elimina el modo oscuro
     }
-    });
 });
+    });
