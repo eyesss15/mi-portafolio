@@ -12,17 +12,12 @@ header {
     background: #ce2e2e;
     color: rgb(105, 94, 94);
     padding: 10px 0;
-    position: fixed; /* Added this line to position the header at the top */
-    top: 0; /* Added this line to position the header at the top */
-    left: 0; /* Added this line to position the header at the top */
-    width: 100%; /* Added this line to make the header span the full width of the page */
-    z-index: 999; /* Added this line to ensure the header is always on top */
 }
 
 .logo {
     display: flex;
     align-items: center;
-    margin-left: 20px; /* Already added this line to move the logo to the left side */
+    margin-left: 20px; /* Move the logo to the left side */
 }
 
 .logo img {
@@ -33,16 +28,6 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: #ce2e2e;
-    position: fixed; /* Already added this line to position the nav at the top */
-    top: 0; /* Already added this line to position the nav at the top */
-    left: 0; /* Already added this line to position the nav at the top */
-    width: 100%; /* Already added this line to make the nav span the full width of the page */
-    z-index: 999; /* Already added this line to ensure the nav is always on top */
-}
-
-nav .logo {
-    margin-left: 0; /* Remove the margin-left property from the .logo class */
-    margin-right: 20px; /* Add this line to move the logo to the right side */
 }
 
 nav ul {
@@ -65,13 +50,13 @@ nav ul li:last-child {
 nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 5px 10px; /* Already added this line for spacing around the text */
-    transition: background-color 0.3s; /* Already added this line for smooth transition */
+    padding: 5px 10px; /* Espaciado alrededor del texto */
+    transition: background-color 0.3s; /* Transición suave */
 }
 
 nav ul li a:hover {
-    background-color: #000000; /* Already added this line for hover background color */
-    border-radius: 5px; /* Already added this line for rounded borders */
+    background-color: #000000; /* Color de fondo al hacer hover */
+    border-radius: 5px; /* Bordes redondeados */
 }
 
 
