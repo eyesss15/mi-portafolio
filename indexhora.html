@@ -34,18 +34,37 @@
         <p id="fecha"></p>
     </main>
 
-    <script>
+<script>
         const fechaElement = document.getElementById('fecha');
         const fechaActual = new Date();
         fechaElement.textContent = fechaActual.toLocaleDateString('es-ES', {
             hour: 'numeric',
             minute: 'numeric',
-            second: 'numeric',
             year: 'numeric',
             month: 'long',
-            day: 'numeric'
+            day: 'numeric',
+            second: 'numeric'
         });
+
+
+        function updateDateTime() {
+            const fechaActual = new Date();
+            fechaElement.textContent = fechaActual.toLocaleDateString('es-ES', {
+                hour: 'numeric',
+                minute: 'numeric',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                second: 'numeric'
+            });
+        }
+
+        updateDateTime();
+        setInterval(updateDateTime, 1000); // Actualiza la fecha cada segundo
+
     </script>
+
+
 
 </body>
 </html>
