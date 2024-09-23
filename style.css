@@ -66,23 +66,25 @@ img {
 
 
 
-.menu .navbar ul li {
-    position: relative;
-    float: left;
+nav ul {
+    list-style: none;
+    display: flex;
 }
 
-.menu .navbar ul li a {
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
     font-size: 18px;
-    padding: 20px;
-    color: #FFFFFF;
-    display: block;
-    font-weight: 600;
 }
 
-.menu .navbar ul li a:hover {
-    color: #f56349;
+nav ul li a:hover {
+    color: #f4f4f4;
 }
-
 #menu {
     display: none;
 }
