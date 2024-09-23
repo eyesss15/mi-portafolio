@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camilo</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+
+
+    
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="Camilo.jpg" alt="Mi Foto">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <video autoplay muted loop playsinline id="heroVideo">
+        <source src="laciti.mp4" type="video/mp4">
+        </video>
+        <h1>.</h1>
+        <p>.</p>
+    </section>
+
+    <section id="about">
+        <button id="toggleDarkMode">Modo oscuro</button>
+        <h2>Sobre Mí</h2>
+        <p>Mi nombre es Camilo, tengo 18 years old, me gustaría aprender a programar y poder vivir de ello, me gustan los autos y amo a mi novia.</p>
+        <script src="scriptdark.js"></script>
+    </section>
+
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="angieyyoooo.jpg" alt="Proyecto 1">
+                <h3>Mi relación con Angie</h3>
+                <p>Nuestra relación es una relación muy bonita, que tiene sus altas y bajas pero tenemos un amor interminable para el otro. te amo mua</p>
+            </div>
+
+            <div class="project">
+                <img src="carro.jpg" alt="Proyecto 2">
+                <h3>Licencia</h3>
+                <p>La licencia de conducir es algo que me gustaría tener en Austria y es algo que obtendré</p>
+            </div>
+
+            <div class="project">
+                <img src="joseyyo.jpg" alt="Proyecto 3">
+                <h3>Parchar con el Jose</h3>
+                <p>El mero ponche</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Redes sociales</p>
+
+        <div class="social-buttons">
+        <!-- Botón de Instagram -->
+        <a href="https://instagram.com/camilo.660" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="social-icon">
+        </a>
+
+        <!-- Botón de Twitter (opcional) -->
+        <a href="https://twitter.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="Twitter" class="social-icon">
+        </a>
+
+        <a href="https://github.com/eyesss15" target="_blank">
+            <img src="https://imgs.search.brave.com/t-KyWA8i3BBE5RiMN0NiDBJxxXcQQD9YyQb0qLlysJI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy85/LzkxL09jdGljb25z/LW1hcmstZ2l0aHVi/LnN2Zw" alt="Github" class="social-icon">
+        </a>
+
+
+        <a href="https://web.whatsapp.com/" target="_blank">
+            <img src="https://cdn-icons-png.freepik.com/512/733/733585.png?ga=GA1.1.1820162882.1712565778" alt="WhatsApp" class="social-icon">
+        </a>
+
+
+        <a href="https://web.whatsapp.com/" target="_blank">
+            <img src="https://cdn-icons-png.freepik.com/512/16592/16592544.png?ga=GA1.1.1820162882.1712565778" alt="Spotify" class="social-icon">
+        </a>
+            
+    
+    </div>
+        
+    </section>
+
+    <section id="comentarios" class="comments-section">
+        <h2>Deja tu comentario</h2>
+        <form class="comment-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+            <label for="comentario">Comentario</label>
+            <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí" required></textarea>
+
+            <button type="submit">Enviar Comentario</button>
+        </form>
+
+        <div id="comentarios-publicados">
+
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+
+
+    <footer>
+        <p>&copy; 2024 Camilo. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
