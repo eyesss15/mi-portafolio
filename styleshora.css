@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6b6b6b;
+    color: #333;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Coloca el video detrás del contenido */
+}
+
+#video-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que el video cubra toda el área sin distorsionarse */
+}
+
+
+
+header {
+    background: #ce2e2e;
+    color: rgb(105, 94, 94);
+    padding: 10px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Move the logo to the left side */
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ce2e2e;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px; /* Espaciado alrededor del texto */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+nav ul li a:hover {
+    background-color: #000000; /* Color de fondo al hacer hover */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+main {
+    text-align: center;
+    margin: 50px 0;
+}
