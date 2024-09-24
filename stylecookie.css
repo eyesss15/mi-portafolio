@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #8d7d7d9c;
+    background-color: #0000009c;
 }
 
 
@@ -30,17 +30,17 @@ body {
 
 #cookieBoostBtn {
     margin-top: 10px;
-    background-color: #ff7300;
+    background-color: #0acaec;
 }
 
 #autoClickerBtn {
     margin-top: 10px;
-    background-color: #ff7300;
+    background-color: #0acaec;
 }
 
 #cookieLuckBtn {
     margin-top: 10px;
-    background-color: #ff7300;
+    background-color: #0acaec;
 }
 
 .achievements {
