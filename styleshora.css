@@ -40,6 +40,34 @@ header {
     height: 50px;
 }
 
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown li {
+    position: relative;
+}
+
+.dropdown li a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown li a:hover {
+    background-color: #f1f1f1;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
