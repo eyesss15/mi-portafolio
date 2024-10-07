@@ -8,16 +8,6 @@ body {
     line-height: 1.6;
 }
 
-/* Fondo del cuerpo que se muestra cuando termina la carga */
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0; /* Fondo claro para el contenido */
-    font-family: Arial, sans-serif;
-}
 
 /* Estilo para el contenedor de la animación */
 #loading-screen {
