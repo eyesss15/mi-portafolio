@@ -24,7 +24,7 @@ body {
 }
 
 /* Oculta el contenido durante la carga */
-#content {
+#content, nav {
     display: none;
 }
 
